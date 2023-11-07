@@ -14,10 +14,16 @@ function selectionSort(arr) {
       }
   
       //compare the indexes
-      if (min !== i) {
-        //swap
-        [arr[i], arr[min]] = [arr[min], arr[i]];
-      }
+        if (min !== i) {
+          //swap
+          [arr[i], arr[min]] = [arr[min], arr[i]];
+        }
+
+              //compare the indexes
+              if (min !== i) {
+                //swap
+                [arr[i], arr[min]] = [arr[min], arr[i]];
+              }
     }
   
     return arr;
