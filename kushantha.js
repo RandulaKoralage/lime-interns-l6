@@ -16,11 +16,11 @@ function selectionSort(arr) {
       //compare the indexes
       if (min !== i) {
         //swap
-        [arr[i], arr[min]] = [arr[min], arr[i]];
+        [arr[i], arr[min]] = [ arr[i],arr[min]];
       }
     }
   
     return arr;
   }
   
-  console.log(selectionSort([29, 72, 98, 13, 87, 66, 52, 51, 36]));
+  console.log(selectionSort([45,67,78,89,83,64,89,10,74]));
