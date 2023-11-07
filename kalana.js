@@ -12,5 +12,5 @@ function findSecondLargestElem(arr){
     }
     console.log(second);
 }
-let arr = [12, 35, 1, 10, 34, 1]
+let arr = [12, 20, 1, 15, 34, 2]
 findSecondLargestElem(arr);
